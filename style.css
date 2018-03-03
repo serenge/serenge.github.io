@@ -413,6 +413,11 @@ body {
 	opacity: .6
 }
 
+.footerr {
+	margin: 20px auto;
+	padding: 10px;
+}
+
 .footer p {
 	color: #888;
 	font-size: 0.875rem;
