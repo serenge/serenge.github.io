@@ -75,7 +75,7 @@ body {
 }
 
 .nav {
-	height: 40px
+	height: 50px
 }
 
 .menu {
@@ -101,7 +101,6 @@ body {
 }
 
 .xuanyan {
-    margin-top: -40px;
 	float: right;
 	display: block;
 	padding: 10px 20px;
@@ -125,8 +124,8 @@ body {
 
 .top .left {
 	float: left;
-	width: 980px;
-	height: 187px
+	width: 930px;
+	height: 177px
 }
 
 .top .left a {
@@ -513,6 +512,10 @@ body {
 		display: block
 	}
 
+	.wap p {
+		display: block
+	}
+
 	body {
 		background: #111
 	}
@@ -533,13 +536,43 @@ body {
 		color: #d75544
 	}
 
+	.menu1 {
+	list-style: none
+	}
+
+	.menu1 li a {
+	float: left;
+	display: block;
+	margin-right: 5px;
+	padding: 10px 20px;
+	width: 50px;
+	background: hsla(0,0%,100%,.8);
+	color: #ff5e52;
+	text-align: center;
+	line-height: 1.875rem;
+	transition: .1s
+	}
+
+	.menu1 li .active,.menu li a:hover {
+	background: #f66;
+	color: #fff
+	}
+
 	.xuanyan {
-	margin: 4px 0 0;
-	width: 87%;
+	width: 156px;
 	background: #e68478;
 	color: #fff;
 	font-size: 0.9375rem;
 	line-height: 1.875rem
+	text-align: center;
+	}
+
+.xuanyan1 {
+	background: #e68478;
+	color: #fff;
+	font-size: 0.9375rem;
+	text-align: center;
+	height: 70px;
 	}
 
 	.pic {
@@ -553,7 +586,7 @@ body {
 
 	.top .left {
 		width: 100%;
-		height: 335px;
+		height: 345px;
 		background-color: #fff
 	}
 
