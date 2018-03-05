@@ -545,7 +545,6 @@ body {
 	display: block;
 	margin-right: 5px;
 	padding: 10px 20px;
-	width: 50px;
 	background: hsla(0,0%,100%,.8);
 	color: #ff5e52;
 	text-align: center;
@@ -558,21 +557,13 @@ body {
 	color: #fff
 	}
 
-	.xuanyan {
-	width: 170px;
-	background: #e68478;
-	color: #fff;
-	font-size: 0.9375rem;
-	line-height: 1.875rem
-	text-align: center;
-	}
-
 	.xuanyan1 {
+	padding: 10px 20px;
 	background: #e68478;
 	color: #fff;
 	font-size: 0.9375rem;
 	text-align: center;
-	height: 70px;
+	height: 30px;
 	}
 
 	.pic {
